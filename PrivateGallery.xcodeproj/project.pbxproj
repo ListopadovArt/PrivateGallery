@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF332F0C26B1E0F500B5B322 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF332F0B26B1E0F500B5B322 /* StartViewModel.swift */; };
+		AF470ECF2643C1DE0019895C /* FotoBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF470ECE2643C1DE0019895C /* FotoBrain.swift */; };
+		AF470ED12643C2D50019895C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF470ED02643C2D50019895C /* Image.swift */; };
+		AF470ED32643EA850019895C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF470ED22643EA850019895C /* UIView+Extensions.swift */; };
+		AF4CAD292641CD940017B1F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CAD282641CD940017B1F5 /* AppDelegate.swift */; };
+		AF4CAD2D2641CD940017B1F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CAD2C2641CD940017B1F5 /* LoginViewController.swift */; };
+		AF4CAD302641CD940017B1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4CAD2E2641CD940017B1F5 /* Main.storyboard */; };
+		AF4CAD322641CDA00017B1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4CAD312641CDA00017B1F5 /* Assets.xcassets */; };
+		AF4CAD352641CDA00017B1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4CAD332641CDA00017B1F5 /* LaunchScreen.storyboard */; };
+		AF4D712E26BD0690005A6EF3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AF4D712D26BD0690005A6EF3 /* README.md */; };
+		AF53F5F126BACE4D00A583E6 /* Realm+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F5F026BACE4D00A583E6 /* Realm+Extensions.swift */; };
+		AF705E1B26DAA70900183FB8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF705E1A26DAA70900183FB8 /* Constants.swift */; };
+		AF9764EC264306460041036A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9764EB264306460041036A /* UIViewController+Extensions.swift */; };
+		AF9764EE264320AA0041036A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9764ED264320AA0041036A /* StartViewController.swift */; };
+		AF9764F22643257C0041036A /* ImagePikerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9764F12643257C0041036A /* ImagePikerViewController.swift */; };
+		AF9764F426432B630041036A /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9764F326432B630041036A /* ShowViewController.swift */; };
+		AFB19D3B26B2C3F30024D930 /* StartFotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB19D3A26B2C3F30024D930 /* StartFotoCollectionViewCell.swift */; };
+		AFC5303F26B5525000BB663C /* ImagePikerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC5303E26B5525000BB663C /* ImagePikerViewModel.swift */; };
+		AFC7363A2642D91000D64231 /* SecretFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC736392642D91000D64231 /* SecretFoto.swift */; };
+		B63203846D34CF33E65B4C9E /* Pods_PrivateGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8844A2E5FDE78FB96E619EB /* Pods_PrivateGallery.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4371EE5E8733D09314E9FB39 /* Pods-PrivateGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateGallery.release.xcconfig"; path = "Target Support Files/Pods-PrivateGallery/Pods-PrivateGallery.release.xcconfig"; sourceTree = "<group>"; };
+		5E15AC22361C7A85C52D2828 /* Pods-PrivateGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateGallery.debug.xcconfig"; path = "Target Support Files/Pods-PrivateGallery/Pods-PrivateGallery.debug.xcconfig"; sourceTree = "<group>"; };
+		AF194DFF264C1904007E0753 /* PrivateGalleryRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrivateGalleryRelease.entitlements; sourceTree = "<group>"; };
+		AF332F0B26B1E0F500B5B322 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		AF470ECE2643C1DE0019895C /* FotoBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoBrain.swift; sourceTree = "<group>"; };
+		AF470ED02643C2D50019895C /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		AF470ED22643EA850019895C /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		AF4CAD252641CD940017B1F5 /* PrivateGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4CAD282641CD940017B1F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF4CAD2C2641CD940017B1F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF4CAD2F2641CD940017B1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4CAD312641CDA00017B1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4CAD342641CDA00017B1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF4CAD362641CDA00017B1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4D712D26BD0690005A6EF3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		AF53F5F026BACE4D00A583E6 /* Realm+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Extensions.swift"; sourceTree = "<group>"; };
+		AF705E1A26DAA70900183FB8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF9764EB264306460041036A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		AF9764ED264320AA0041036A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		AF9764F12643257C0041036A /* ImagePikerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePikerViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		AF9764F326432B630041036A /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		AFB19D3A26B2C3F30024D930 /* StartFotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartFotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFC5303E26B5525000BB663C /* ImagePikerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePikerViewModel.swift; sourceTree = "<group>"; };
+		AFC736392642D91000D64231 /* SecretFoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretFoto.swift; sourceTree = "<group>"; };
+		B8844A2E5FDE78FB96E619EB /* Pods_PrivateGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4CAD222641CD940017B1F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63203846D34CF33E65B4C9E /* Pods_PrivateGallery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5228D00B9C3C0AEA3F05244F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8844A2E5FDE78FB96E619EB /* Pods_PrivateGallery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4CAD1C2641CD940017B1F5 = {
+			isa = PBXGroup;
+			children = (
+				AF4CAD272641CD940017B1F5 /* PrivateGallery */,
+				AF4CAD262641CD940017B1F5 /* Products */,
+				DDA0B7044501263FEE4C3994 /* Pods */,
+				5228D00B9C3C0AEA3F05244F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4CAD262641CD940017B1F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4CAD252641CD940017B1F5 /* PrivateGallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4CAD272641CD940017B1F5 /* PrivateGallery */ = {
+			isa = PBXGroup;
+			children = (
+				AF194DFF264C1904007E0753 /* PrivateGalleryRelease.entitlements */,
+				AFC736382642D8DA00D64231 /* Extensions */,
+				AF4CAD282641CD940017B1F5 /* AppDelegate.swift */,
+				AF9764E8264305F30041036A /* Model */,
+				AF9764E9264305FF0041036A /* View */,
+				AF9764EA2643061D0041036A /* Controller */,
+				AF4CAD312641CDA00017B1F5 /* Assets.xcassets */,
+				AF4CAD332641CDA00017B1F5 /* LaunchScreen.storyboard */,
+				AF4CAD362641CDA00017B1F5 /* Info.plist */,
+				AF4D712D26BD0690005A6EF3 /* README.md */,
+				AF705E1A26DAA70900183FB8 /* Constants.swift */,
+			);
+			path = PrivateGallery;
+			sourceTree = "<group>";
+		};
+		AF9764E8264305F30041036A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFC736392642D91000D64231 /* SecretFoto.swift */,
+				AF470ED02643C2D50019895C /* Image.swift */,
+				AF470ECE2643C1DE0019895C /* FotoBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF9764E9264305FF0041036A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF4CAD2E2641CD940017B1F5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF9764EA2643061D0041036A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF4CAD2C2641CD940017B1F5 /* LoginViewController.swift */,
+				AF9764ED264320AA0041036A /* StartViewController.swift */,
+				AF332F0B26B1E0F500B5B322 /* StartViewModel.swift */,
+				AFB19D3A26B2C3F30024D930 /* StartFotoCollectionViewCell.swift */,
+				AF9764F12643257C0041036A /* ImagePikerViewController.swift */,
+				AFC5303E26B5525000BB663C /* ImagePikerViewModel.swift */,
+				AF9764F326432B630041036A /* ShowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AFC736382642D8DA00D64231 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF53F5F026BACE4D00A583E6 /* Realm+Extensions.swift */,
+				AF9764EB264306460041036A /* UIViewController+Extensions.swift */,
+				AF470ED22643EA850019895C /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDA0B7044501263FEE4C3994 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E15AC22361C7A85C52D2828 /* Pods-PrivateGallery.debug.xcconfig */,
+				4371EE5E8733D09314E9FB39 /* Pods-PrivateGallery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4CAD242641CD940017B1F5 /* PrivateGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4CAD392641CDA00017B1F5 /* Build configuration list for PBXNativeTarget "PrivateGallery" */;
+			buildPhases = (
+				E956099E573CE35ED414CA37 /* [CP] Check Pods Manifest.lock */,
+				AF4CAD212641CD940017B1F5 /* Sources */,
+				AF4CAD222641CD940017B1F5 /* Frameworks */,
+				AF4CAD232641CD940017B1F5 /* Resources */,
+				A28BDE6FABAB7C132974C45C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivateGallery;
+			productName = PrivateGallery;
+			productReference = AF4CAD252641CD940017B1F5 /* PrivateGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4CAD1D2641CD940017B1F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Artem Listopadov";
+				TargetAttributes = {
+					AF4CAD242641CD940017B1F5 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = AF4CAD202641CD940017B1F5 /* Build configuration list for PBXProject "PrivateGallery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF4CAD1C2641CD940017B1F5;
+			productRefGroup = AF4CAD262641CD940017B1F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4CAD242641CD940017B1F5 /* PrivateGallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4CAD232641CD940017B1F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4CAD352641CDA00017B1F5 /* LaunchScreen.storyboard in Resources */,
+				AF4CAD322641CDA00017B1F5 /* Assets.xcassets in Resources */,
+				AF4D712E26BD0690005A6EF3 /* README.md in Resources */,
+				AF4CAD302641CD940017B1F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A28BDE6FABAB7C132974C45C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrivateGallery/Pods-PrivateGallery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrivateGallery/Pods-PrivateGallery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrivateGallery/Pods-PrivateGallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E956099E573CE35ED414CA37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrivateGallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4CAD212641CD940017B1F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC7363A2642D91000D64231 /* SecretFoto.swift in Sources */,
+				AF4CAD2D2641CD940017B1F5 /* LoginViewController.swift in Sources */,
+				AF9764EC264306460041036A /* UIViewController+Extensions.swift in Sources */,
+				AFC5303F26B5525000BB663C /* ImagePikerViewModel.swift in Sources */,
+				AF470ECF2643C1DE0019895C /* FotoBrain.swift in Sources */,
+				AF705E1B26DAA70900183FB8 /* Constants.swift in Sources */,
+				AF9764F426432B630041036A /* ShowViewController.swift in Sources */,
+				AFB19D3B26B2C3F30024D930 /* StartFotoCollectionViewCell.swift in Sources */,
+				AF332F0C26B1E0F500B5B322 /* StartViewModel.swift in Sources */,
+				AF4CAD292641CD940017B1F5 /* AppDelegate.swift in Sources */,
+				AF9764F22643257C0041036A /* ImagePikerViewController.swift in Sources */,
+				AF9764EE264320AA0041036A /* StartViewController.swift in Sources */,
+				AF53F5F126BACE4D00A583E6 /* Realm+Extensions.swift in Sources */,
+				AF470ED12643C2D50019895C /* Image.swift in Sources */,
+				AF470ED32643EA850019895C /* UIView+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF4CAD2E2641CD940017B1F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4CAD2F2641CD940017B1F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4CAD332641CDA00017B1F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4CAD342641CDA00017B1F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4CAD372641CDA00017B1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF4CAD382641CDA00017B1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4CAD3A2641CDA00017B1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E15AC22361C7A85C52D2828 /* Pods-PrivateGallery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H65T22SG4;
+				INFOPLIST_FILE = PrivateGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Artem-Listopadov.by.PrivateGallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AF4CAD3B2641CDA00017B1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4371EE5E8733D09314E9FB39 /* Pods-PrivateGallery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PrivateGallery/PrivateGalleryRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H65T22SG4;
+				INFOPLIST_FILE = PrivateGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Artem-Listopadov.by.PrivateGallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4CAD202641CD940017B1F5 /* Build configuration list for PBXProject "PrivateGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4CAD372641CDA00017B1F5 /* Debug */,
+				AF4CAD382641CDA00017B1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4CAD392641CDA00017B1F5 /* Build configuration list for PBXNativeTarget "PrivateGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4CAD3A2641CDA00017B1F5 /* Debug */,
+				AF4CAD3B2641CDA00017B1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4CAD1D2641CD940017B1F5 /* Project object */;
+}
