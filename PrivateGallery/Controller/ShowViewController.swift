@@ -96,11 +96,11 @@ class ShowViewController: UIViewController {
                        initialSpringVelocity: 10,
                        options: .curveEaseInOut,
                        animations: {
-                        self.like = !self.like
-                        let image = self.like ? self.favoriteFullImage : self.favoriteBorderImage
-                        self.likeButton.setImage(image, for: .normal)
-                        self.likeButton.transform = .identity
-                       }, completion: nil)
+            self.like = !self.like
+            let image = self.like ? self.favoriteFullImage : self.favoriteBorderImage
+            self.likeButton.setImage(image, for: .normal)
+            self.likeButton.transform = .identity
+        }, completion: nil)
         try! self.realm.write {
             self.fotoBrain.array[self.fotoBrain.currentFotoNumber].like = self.like
         }

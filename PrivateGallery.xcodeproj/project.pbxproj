@@ -99,18 +99,26 @@
 			isa = PBXGroup;
 			children = (
 				AF194DFF264C1904007E0753 /* PrivateGalleryRelease.entitlements */,
-				AFC736382642D8DA00D64231 /* Extensions */,
+				AF4D712D26BD0690005A6EF3 /* README.md */,
+				AF705E1A26DAA70900183FB8 /* Constants.swift */,
 				AF4CAD282641CD940017B1F5 /* AppDelegate.swift */,
 				AF9764E8264305F30041036A /* Model */,
 				AF9764E9264305FF0041036A /* View */,
 				AF9764EA2643061D0041036A /* Controller */,
+				AFC736382642D8DA00D64231 /* Extensions */,
+				AF5B6A8C287B17F50049C16A /* Files */,
+			);
+			path = PrivateGallery;
+			sourceTree = "<group>";
+		};
+		AF5B6A8C287B17F50049C16A /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				AF4CAD312641CDA00017B1F5 /* Assets.xcassets */,
 				AF4CAD332641CDA00017B1F5 /* LaunchScreen.storyboard */,
 				AF4CAD362641CDA00017B1F5 /* Info.plist */,
-				AF4D712D26BD0690005A6EF3 /* README.md */,
-				AF705E1A26DAA70900183FB8 /* Constants.swift */,
 			);
-			path = PrivateGallery;
+			name = Files;
 			sourceTree = "<group>";
 		};
 		AF9764E8264305F30041036A /* Model */ = {
