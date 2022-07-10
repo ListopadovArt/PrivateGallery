@@ -68,7 +68,7 @@ class ImagePikerViewController: UIViewController {
     private func showImagePicker(sourceType: UIImagePickerController.SourceType){
         let imagePicker = UIImagePickerController()
         imagePicker.delegate = self
-        imagePicker.allowsEditing = false //разрешение редактировать выбранную картинку
+        imagePicker.allowsEditing = false
         imagePicker.sourceType = sourceType
         imagePicker.modalPresentationStyle = .overCurrentContext
         self.present(imagePicker, animated: true, completion: nil)

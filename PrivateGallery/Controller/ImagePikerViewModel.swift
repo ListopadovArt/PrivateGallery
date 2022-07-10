@@ -16,13 +16,13 @@ class ImagePikerViewModel {
     
     // MARK: - Prime functions
     func addImage(image: UIImage) -> [SecretFoto] {
-        let user = SecretFoto()
+        let photo = SecretFoto()
         if  let imageName = self.saveImage(image: image) {
-            user.name = imageName
-            totalarray.append(user)
+            photo.name = imageName
+            totalarray.append(photo)
         }
         realm.beginWrite()
-        realm.add(user)
+        realm.add(photo)
         do{
             try realm.commitWrite()
         } catch {

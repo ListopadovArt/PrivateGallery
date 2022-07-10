@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ECD-R1-4lJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ECD-R1-4lJ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -147,7 +147,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="CQD-SZ-jRE">
-                                <rect key="frame" x="30" y="762" width="354" height="50"/>
+                                <rect key="frame" x="30" y="826" width="354" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXn-Lj-Swf">
                                         <rect key="frame" x="0.0" y="0.0" width="170.5" height="50"/>
@@ -186,7 +186,7 @@
                                 </state>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VUc-Tv-Y6z">
-                                <rect key="frame" x="5" y="99" width="404" height="658"/>
+                                <rect key="frame" x="5" y="99" width="404" height="722"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="H1D-XW-htc">
                                     <size key="itemSize" width="135" height="130"/>
@@ -232,7 +232,7 @@
                             <constraint firstItem="VUc-Tv-Y6z" firstAttribute="leading" secondItem="2b4-If-JdJ" secondAttribute="leading" constant="5" id="b8E-od-kQH"/>
                             <constraint firstItem="2b4-If-JdJ" firstAttribute="trailing" secondItem="CQD-SZ-jRE" secondAttribute="trailing" constant="30" id="d1x-02-Fpw"/>
                             <constraint firstItem="VUc-Tv-Y6z" firstAttribute="top" secondItem="c83-yC-kE1" secondAttribute="bottom" constant="5" id="gOW-pB-Cmj"/>
-                            <constraint firstItem="2b4-If-JdJ" firstAttribute="bottom" secondItem="CQD-SZ-jRE" secondAttribute="bottom" constant="50" id="nI6-zd-mzv"/>
+                            <constraint firstAttribute="bottom" secondItem="CQD-SZ-jRE" secondAttribute="bottom" constant="20" id="nI6-zd-mzv"/>
                         </constraints>
                     </view>
                     <connections>
